@@ -32,28 +32,6 @@ Operator	Name	            Description	                            Example
 The + operator is often used to add together two values, it can also be used to add together a
 variable and a value, or a variable and another variable as well.
 
-Unary Operators:
-The Address Of Operator &: when declaring a variable, the compiler reserves an amount of space in
-memory for that variable. C++ provides an operator that can tell you where (the space for) a variable
-is located. This is done using the "address of" operator represented by the ampersand &.
-To get the address of a variable, use the ampersand operator on its left. The address is a hexadecimal number.
-
-The sizeof Operator: C++ provides the unary sizeof operator that allows you to find out how much space a data
-type or a certain variable in your program is using.
-There are four methods you can use with the sizeof operator: using the variable or the data type. The general
-syntaxes of the sizeof operator are:
-
-sizeof VariableName;
-sizeof DataType;
-sizeof(VariableName);
-sizeof(DataType);
-Any of these four formulas is admissible. But it is good to refrain from using the data type except in rare
-cases that you can justify. The reason you should apply the sizeof operator on the variable is because, if
-you change the variable (the word variable means it can change throughout the program), that is, if you perform
-any operation on it, the sizeof operator will acknowledge that and render the right result. Some and most of the
-time, if you apply the sizeof operator on the data type, you might end up with a bug; if you are lucky, the program
-would simply not compile.
-
 C++ Operators:
 Operators are used to perform operations on variables and values.
 C++ divides the operators into the following groups:
@@ -101,7 +79,6 @@ Expressions are sequences of operators and operands that are used for one or mor
     cout<< "Reminder of division of number a by b is: " << r << endl;
 
     cout << "Memory location of a is: " << &a << endl;
-    cout << "Size of memory for variable a is: " << sizeof a << "bytes\n";
 
     getch();
 }
