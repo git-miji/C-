@@ -47,7 +47,7 @@ What is expression?
 Expressions are sequences of operators and operands that are used for one or more of these purposes:
 01. Computing a value from the operands.
 02. Designating objects or functions.
-03. Generating "side effects." (Side effects are any actions other than the evaluation of the expression — for example,
+03. Generating "side effects." (Side effects are any actions other than the evaluation of the expression â€” for example,
     modifying the value of an object.)
 
 */
