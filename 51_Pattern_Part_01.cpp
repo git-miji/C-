@@ -5,6 +5,9 @@ using namespace std;
 
 int main()
 {
+    cout << "Printing Number pattern" << endl;
+    cout << "***********************" << endl;
+
     int n, row, column;
 
     cout << "Enter the number of lines: ";
@@ -122,6 +125,5 @@ int main()
 
         cout << endl;
     }
-
     getch();
 }
