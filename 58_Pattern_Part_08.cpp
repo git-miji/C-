@@ -67,5 +67,25 @@ int main()
         cout <<endl;
     }
 
+    cout<<"Printing Pattern with Character" << endl;
+    cout<<"*******************************" << endl;
+
+    cout<< "Enter the number of row: ";
+    cin>> n;
+    cout<< endl;
+
+    for (row=1; row<=n; row++)
+    {
+        for (column=1; column<=n-row; column++)
+        {
+            cout << " ";
+        }
+        for (column=1; column<=row; column++)
+        {
+            cout <<char (row+64);
+        }
+        cout <<endl;
+    }
+
     getch();
 }
