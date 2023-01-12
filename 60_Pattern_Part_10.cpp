@@ -104,6 +104,143 @@ int main()
         }
         cout <<endl;
     }
+
+    cout <<"Enter the number of Row: ";
+    cin >> n;
+    cout << endl;
+
+    cout <<"Printing Character Pattern" << endl;
+    cout <<"**************************" << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<char (column+64);
+        }
+        cout <<endl;
+    }
+    for (row=n-1; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<char (column+64);
+        }
+        cout <<endl;
+    }
+
+    cout <<"Printing Character Pattern" << endl;
+    cout <<"**************************" << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<char (row+64);
+        }
+        cout <<endl;
+    }
+    for (row=n-1; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<char (row+64);
+        }
+        cout <<endl;
+    }
+
+    cout <<"Printing Symbolic Pattern" << endl;
+    cout <<"*************************" << endl;
+
+    cout <<"Enter the number of Row: ";
+    cin >> n;
+    cout << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<"*";
+        }
+        cout <<endl;
+    }
+    for (row=n-1; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<"*";
+        }
+        cout <<endl;
+    }
+
+    cout <<"Printing Symbolic Pattern" << endl;
+    cout <<"*************************" << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<"+";
+        }
+        cout <<endl;
+    }
+    for (row=n-1; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<"+";
+        }
+        cout <<endl;
+    }
+
     getch();
 }
 
