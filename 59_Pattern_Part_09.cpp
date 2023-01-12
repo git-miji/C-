@@ -68,8 +68,8 @@ int main()
     }
 
     cout << endl;
-    cout <<"Printing Sybolic Pattern" << endl;
-    cout <<"************************" << endl;
+    cout <<"Printing Symbolic Pattern" << endl;
+    cout <<"*************************" << endl;
 
     for (row=n; row>0; row--)
     {
