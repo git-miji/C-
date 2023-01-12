@@ -17,11 +17,40 @@ int main()
         //Printing Character
         for (column=1; column<=n; column++)
         {
-            cout <<"A ";
+            cout <<char (column+64) << " ";
         }
         cout <<endl;
     }
 
+    cout <<"Printing Character Pattern" << endl;
+    cout <<"**************************" << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Character
+        for (column=1; column<=n; column++)
+        {
+            cout <<char (row+64) << " ";
+        }
+        cout <<endl;
+    }
+
+    cout <<"Printing Symbolic Pattern" << endl;
+    cout <<"*************************" << endl;
+
+    cout <<"Enter the number of Row: ";
+    cin >> n;
+    cout << endl;
+
+    for (row=1; row<=n; row++)
+    {
+        //Printing Symbol
+        for (column=1; column<=n; column++)
+        {
+            cout <<"* ";
+        }
+        cout <<endl;
+    }
     cout <<"Printing Symbolic Pattern" << endl;
     cout <<"*************************" << endl;
 
@@ -30,7 +59,7 @@ int main()
         //Printing Symbol
         for (column=1; column<=n; column++)
         {
-            cout <<"* ";
+            cout <<" + ";
         }
         cout <<endl;
     }
