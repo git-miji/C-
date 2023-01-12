@@ -65,9 +65,26 @@ int main()
             cout <<column % 2;
         }
         cout <<endl;
-
     }
 
+    cout << endl;
+    cout <<"Printing Sybolic Pattern" << endl;
+    cout <<"************************" << endl;
+
+    for (row=n; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Symbol
+        for (column=1; column<=row; column++)
+        {
+            cout <<"#";
+        }
+        cout <<endl;
+    }
 
     getch();
 }
