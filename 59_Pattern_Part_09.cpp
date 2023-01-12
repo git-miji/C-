@@ -42,12 +42,31 @@ int main()
         // Printing Number
         for (column=1; column<=row; column++)
         {
-            cout <<column;
+            cout <<row;
         }
         cout <<endl;
 
     }
 
+    cout << endl;
+    cout <<"Printing Number Pattern" << endl;
+    cout <<"***********************" << endl;
+
+    for (row=n; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n-row; column++)
+        {
+            cout <<" ";
+        }
+        // Printing Number
+        for (column=1; column<=row; column++)
+        {
+            cout <<column % 2;
+        }
+        cout <<endl;
+
+    }
 
 
     getch();
