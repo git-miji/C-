@@ -102,7 +102,7 @@ int main()
         // Printing Character
         for (column=1; column<=row; column++)
         {
-            cout <<char (colum+64);
+            cout <<char (column+64);
         }
         cout <<endl;
     }
