@@ -167,7 +167,24 @@ int main()
     cout <<"Printing Character Pattern" << endl;
     cout <<"**************************" << endl;
 
-    for (row=n; row>0; row--)
+    for (row=1; row<=n; row++)
+    {
+        //Printing Space
+        for (column=1; column<=n - row; column++)
+        {
+            cout <<" ";
+        }
+
+        //Printing Character
+        for (column=1; column<=2*row-1; column++)
+        {
+            cout << char (column+64);
+        }
+
+        cout <<endl;
+    }
+
+    for (row=n-1; row>0; row--)
     {
         //Printing Space
         for (column=1; column<=n - row; column++)
@@ -187,15 +204,33 @@ int main()
     cout <<"Printing Character Pattern" << endl;
     cout <<"**************************" << endl;
 
-    for (row=n; row>0; row--)
+    for (row=1; row<=n; row++)
     {
         //Printing Space
         for (column=1; column<=n - row; column++)
         {
             cout <<" ";
         }
+
         //Printing Character
-        for (column=2*row-1; column>0; column--)
+        for (column=1; column<=2*row-1; column++)
+        {
+            cout << char (row+64);
+        }
+
+        cout <<endl;
+    }
+
+    for (row=n-1; row>0; row--)
+    {
+        //Printing Space
+        for (column=1; column<=n - row; column++)
+        {
+            cout <<" ";
+        }
+
+        //Printing Character
+        for (column=1; column<=2*row-1; column++)
         {
             cout << char (row+64);
         }
