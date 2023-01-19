@@ -9,8 +9,8 @@ int main()
     cin >> n;
     cout << endl;
 
-    cout <<"Printing Rectangle Star Pattern" << endl;
-    cout <<"*******************************" << endl;
+    cout <<"Printing Triangle Star Pattern" << endl;
+    cout <<"******************************" << endl;
 
     for (row=1; row<=n; row++)
     {
