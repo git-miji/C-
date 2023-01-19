@@ -12,10 +12,8 @@ int main()
     cout <<"Printing Floyd's Star Pattern" << endl;
     cout <<"*****************************" << endl;
 /*
-
 The Floyd's triangle is a right-angled triangle that contains consecutive natural numbers. In Floyd's triangle,
 the number starts with 1 in the top left corner, and then it consecutive filling the defined rows through the numbers.
-
 */
     for (row=1; row<=n; row++)
     {
