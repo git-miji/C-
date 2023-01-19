@@ -9,24 +9,25 @@ int main()
     cin >> n;
     cout << endl;
 
-    cout <<"Printing Number Pattern" << endl;
-    cout <<"*************************" << endl;
+    cout <<"Printing Rectangle Star Pattern" << endl;
+    cout <<"*******************************" << endl;
 
     for (row=1; row<=n; row++)
     {
-
-        //Printing Space
+        //Printing Star
         for (column=1; column<=n; column++)
         {
-            cout <<" ";
+            if (row==1 || row == n || column==1 || column==n)
+            {
+                cout <<" * ";
+            }
+        // Printing Space
+            else
+            {
+                cout <<"   ";
+            }
         }
-        //Printing Number
-        for (column=1; column<=2*row-1; column++)
-        {
-            cout << column;
-        }
-
-        cout <<endl;
+        cout << endl;
     }
     getch();
 }
